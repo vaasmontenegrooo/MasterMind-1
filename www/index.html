@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <script src="cordova.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/options.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- Main menu page-->
+    <div data-role="page" id="menu" class="background">
+        <div class="buttonscontainer">
+            <a href="#" data-transition="slide" class="ui-btn ui-corner-all menubutton">Nowa Gra</a>
+            <a href="#rules" data-transition="slide" class="ui-btn ui-corner-all menubutton">Zasady Gry</a>
+            <a href="#options" data-transition="slide" class="ui-btn ui-corner-all menubutton">Poziom trudności</a>
+            <a href="#bestresults" data-transition="slide" class="ui-btn ui-corner-all menubutton">Najlepsze Wyniki</a>
+        </div>
+    </div>
+
+    <!-- Game page-->
+    <div data-role="page" id="newgame">
+        <div data-role="main" class="ui-content">
+
+        </div>
+    </div>
+
+    <!-- Rules page-->
+    <div data-role="page" id="rules" class="background">
+        <div data-role="header">
+            <h1>Zasady gry</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+
+        </div>
+        <div data-role="footer" id="footer">
+            <a href="#menu" data-transition="slide" class="ui-btn ui-icon-back ui-btn-icon-left ui-corner-all backbutton">MENU</a>
+        </div>
+    </div>
+
+    <!-- Options page-->
+    <div data-role="page" id="options" class="background">
+        <div data-role="header">
+            <h1>Poziom trudności</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <div class="buttonscontainer">
+                <button id="easy" class="ui-btn ui-corner-all difficultybutton">Łatwy</button>
+                <button id="normal" class="ui-btn ui-corner-all difficultybutton">Normalny</button>
+                <button id="hard" class="ui-btn ui-corner-all difficultybutton">Trudny</button>
+            </div>
+        </div>
+        <div data-role="footer" id="footer">
+            <a href="#menu" data-transition="slide" class="ui-btn ui-icon-back ui-btn-icon-left ui-corner-all backbutton">MENU</a>
+        </div>
+    </div>
+
+    <!-- Best results page-->
+    <div data-role="page" id="bestresults" class="background">
+        
+
+        <div data-role="header">
+            <h1>Najlepsze wyniki</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            
+        </div>
+        <div data-role="footer" id="footer">
+            <a href="#menu" data-transition="slide" class="ui-btn ui-icon-back ui-btn-icon-left ui-corner-all backbutton">MENU</a>
+        </div>
+    </div>
+</body>
+</html>

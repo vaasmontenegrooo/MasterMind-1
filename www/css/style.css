@@ -1,0 +1,76 @@
+﻿body{
+    background-image: url('../img/android/xhdpi/splashscreen.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin:0px;
+    padding:0px;
+}
+.background {
+    background: none;
+}
+    
+#footer{
+    display:block;
+    position:fixed;
+    bottom:0px; 
+    right:0px;
+    left:0px;
+}
+
+#forwardbtn{
+    display:block;
+    width:100px;
+    position:fixed;
+    bottom:10px;
+    left:50%;
+    right:50%;
+}
+
+.buttonscontainer{
+    
+    margin-top:10%;
+}
+
+.menubutton, .difficultybutton {
+    width:80%;
+    color:#ffffff !important;
+    font-family:'Calibri';
+    font-size:120%;
+    font-weight:normal !important;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1B3C5B !important;
+    opacity:0.85;
+}
+
+.menubutton:hover
+{
+    width:80%;
+    color:#000000 !important;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #69C2FD !important;
+}
+
+.difficultybuttonactive{
+    width:80%;
+    color:#000000 !important;
+    font-family:'Calibri';
+    font-size:120%;
+    font-weight:normal !important;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #69C2FD !important;
+    opacity:0.85;
+}
+
+
+.backbutton{
+    width:50px;
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+
