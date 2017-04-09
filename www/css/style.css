@@ -1,20 +1,37 @@
 ﻿body{
-    background-image: url('../img/android/xhdpi/splashscreen.png');
+    margin:0px !important;
+    padding:0px !important;
+    background: url('../img/Splash.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin:0px;
-    padding:0px;
 }
 .background {
     background: none;
 }
-    
-#footer{
+
+.header{
+    border:0px;
+    opacity:0.8;
+    background-color: #69C2FD !important;
+    color:#000000 !important;
+    font-family:'Calibri';
+    font-size:110%;
+    font-weight:bold !important;
+}
+
+.footer{
     display:block;
     position:fixed;
     bottom:0px; 
     right:0px;
     left:0px;
+    border:0px;
+    opacity:0.8;
+    background-color: #69C2FD !important;
+    color:#ffffff !important;
+    font-family:'Calibri';
+    font-size:120%;
+    font-weight:normal !important;
 }
 
 #forwardbtn{
@@ -32,7 +49,7 @@
 }
 
 .menubutton, .difficultybutton {
-    width:80%;
+    width:70% !important; 
     color:#ffffff !important;
     font-family:'Calibri';
     font-size:120%;
@@ -45,7 +62,7 @@
 
 .menubutton:hover
 {
-    width:80%;
+    width:70% !important;
     color:#000000 !important;
     margin-left: auto;
     margin-right: auto;
@@ -53,7 +70,7 @@
 }
 
 .difficultybuttonactive{
-    width:80%;
+    width:70% !important;
     color:#000000 !important;
     font-family:'Calibri';
     font-size:120%;
@@ -70,6 +87,10 @@
     display: block !important;
     margin-left: auto;
     margin-right: auto;
+    background-color: #1B3C5B !important;
+    color:#ffffff !important;
+    font-family:'Calibri';
+    font-weight:normal !important;
     }
 
 
