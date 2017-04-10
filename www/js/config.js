@@ -1,8 +1,8 @@
-let config = {
-    _colors: 5,
-    set colors(value) {
-        this._colors = value
-        this.saveColors()
+var config = {
+    _numbercolors: 5,
+    set numberColors(value) {
+        this._numbercolors = value
+        this.saveNumberColors()
     },
 
     _time: 30,
@@ -11,13 +11,11 @@ let config = {
         this.saveTime()
     },
 
-    saveColors: function () {
-        sessionStorage.setItem('colors', this._colors);
+    saveNumberColors: function () {
+        sessionStorage.setItem('numbercolors', this._numbercolors);
     },
 
     saveTime: function () {
         sessionStorage.setItem('time', this._time);
     }    
 }
-
-

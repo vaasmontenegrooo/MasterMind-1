@@ -10,13 +10,14 @@
     <script src="js/jquery.mobile-1.4.5.min.js"></script>
     <script src="js/config.js"></script>
     <script src="js/options.js"></script>
+    <script src="js/newgame.js"></script>
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
     <!-- Main menu page-->
     <div data-role="page" id="menu" class="background">
         <div class="buttonscontainer">
-            <a href="#" data-transition="slide" class="ui-btn ui-corner-all menubutton">Nowa Gra</a>
+            <a href="#newgamepage" data-transition="slide" id="newgame" class="ui-btn ui-corner-all menubutton">Nowa Gra</a>
             <a href="#rules" data-transition="slide" class="ui-btn ui-corner-all menubutton">Zasady Gry</a>
             <a href="#options" data-transition="slide" class="ui-btn ui-corner-all menubutton">Poziom trudności</a>
             <a href="#bestresults" data-transition="slide" class="ui-btn ui-corner-all menubutton">Najlepsze Wyniki</a>
@@ -24,12 +25,73 @@
     </div>
 
     <!-- Game page-->
-    <div data-role="page" id="newgame">
+    <div data-role="page" id="newgamepage">
         <div data-role="main" class="ui-content">
+            <div class="singlerow">
+                <div id="timer"></div><div id="checkrow"></div>
+            </div>
+            <div class="singlerow">
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singleboxscore"></div>
+            </div>
+            <div class="singlerow">
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singleboxscore"></div>
+            </div>
+            <div class="singlerow">
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singleboxscore"></div>
+            </div>
+            <div class="singlerow">
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singleboxscore"></div>
+            </div>
+            <div class="singlerow">
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singleboxscore"></div>
+            </div>
+            <div class="singlerow">
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singleboxscore"></div>
+            </div>
+            <div class="singlerow">
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singleboxscore"></div>
+            </div>
+            <div class="singlerow">
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singlebox"></div>
+                <div class="singleboxscore"></div>
+            </div>
+            <div class="singlerow">
 
+            </div>
         </div>
     </div>
-
+    
     <!-- Rules page-->
     <div data-role="page" id="rules" class="background">
         <div data-role="header" class="header">

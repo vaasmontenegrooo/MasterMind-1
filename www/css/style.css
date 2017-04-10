@@ -94,4 +94,31 @@
     }
 
 
+/*new game*/ 
 
+.singlerow{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    display:block;
+}
+.singlebox{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    display:block;
+    float:left;
+    background: url('../img/singlebox.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.singleboxscore{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    display:block;
+    float:left;
+    background: url('../img/singleboxscore.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}

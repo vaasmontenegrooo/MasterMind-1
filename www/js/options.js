@@ -15,7 +15,7 @@ function getButtons(){
 }
 
 function easy() {
-    config.colors = 4;
+    config.numberColors = 4;
     config.time = 40;
     getButtons();
     buttonEasy.className = "ui-btn ui-corner-all difficultybuttonactive";
@@ -24,7 +24,7 @@ function easy() {
 }
 
 function normal() {
-    config.colors = 5;
+    config.numberColors = 5;
     config.time = 30;
     getButtons();
     buttonEasy.className = "ui-btn ui-corner-all difficultybutton";
@@ -33,7 +33,7 @@ function normal() {
 }
 
 function hard() {
-    config.colors = 6;
+    config.numberColors = 6;
     config.time = 20;
     getButtons();
     buttonEasy.className = "ui-btn ui-corner-all difficultybutton";
