@@ -122,3 +122,9 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+
+#newgamepage .ui-content{
+    margin:0 !important;
+    padding:0 !important;
+    border:0 !important;
+}
