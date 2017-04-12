@@ -1,4 +1,4 @@
-﻿body{
+body{
     margin:0px !important;
     padding:0px !important;
     background: url('../img/Splash.png');
@@ -108,7 +108,7 @@
     border:0px;
     display:block;
     float:left;
-    background: url('../img/singlebox.png');
+    background: url('../img/container.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -118,12 +118,22 @@
     border:0px;
     display:block;
     float:left;
-    background: url('../img/singleboxscore.png');
+    background: url('../img/scorecheck.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 #newgamepage .ui-content{
+    background-image: url('../img/gamebg.png');
+    position: relative;
+    margin:0 !important;
+    padding:0 !important;
+    border:0 !important;
+}
+
+#options{
+    background-image: url('../img/optionsbg.png');
+    position:relative;
     margin:0 !important;
     padding:0 !important;
     border:0 !important;
