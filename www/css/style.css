@@ -125,7 +125,8 @@ body{
 
 #newgamepage .ui-content{
     background-image: url('../img/gamebg.png');
-    position: relative;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
     margin:0 !important;
     padding:0 !important;
     border:0 !important;
@@ -133,7 +134,8 @@ body{
 
 #options{
     background-image: url('../img/optionsbg.png');
-    position:relative;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
     margin:0 !important;
     padding:0 !important;
     border:0 !important;
