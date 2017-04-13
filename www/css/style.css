@@ -140,3 +140,63 @@ body{
     padding:0 !important;
     border:0 !important;
 }
+
+#timer {
+    margin:0px;
+    padding:0px;
+    border:0px;
+    display:block;
+    float:left;
+    background-color: aqua;
+}
+
+#checkbutton {
+    margin:0px;
+    padding:0px;
+    border:0px;
+    display:block;
+    float:left;
+    background-color: cadetblue;
+}
+
+#colorbasket{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    display:block;
+    float:left;
+    background-color: cadetblue;
+}
+
+#clock{
+    text-align:center;
+    font-size: 32px;
+    font-family: 'Calibri';
+}
+
+.singlecolorbox{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    display:block;
+    float:left;
+    background-color: cadetblue;
+}
+
+.singlecolorbox img{
+    display:block;
+    border:none;
+    margin:auto;
+    text-align:center;
+    width:80%;
+    height:80%;
+}
+
+.border{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    display:block;
+    float:left;
+    background-color: blue;
+}
