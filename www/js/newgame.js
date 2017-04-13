@@ -51,7 +51,7 @@ function screenSize() {
     element.style.width = window.innerWidth + 'px';
     element.style.height = window.innerHeight * 0.1 + 'px';
     if (sessionStorage.getItem('numbercolors') === '4') {
-        element.innerHTML = '<div class="singlecolorbox"><img class="ball" src="../www/img/white.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/blue.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/red.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/green.png"/></div>'
+        element.innerHTML = '<div class="singlecolorbox"><img class="ball" src="../www/img/1_green.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/2_blue.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/3_red.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/4_yellow.png"/></div>'
         el = document.getElementsByClassName("singlecolorbox");
         for (i = 0; i < el.length; i++) {
             element = el.item(i);
@@ -68,7 +68,7 @@ function screenSize() {
         }
     }
     if (sessionStorage.getItem('numbercolors') === '5') {
-        element.innerHTML = '<div class="singlecolorbox"><img class="ball" src="../www/img/white.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/blue.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/red.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/green.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/pink.png"/></div>'
+        element.innerHTML = '<div class="singlecolorbox"><img class="ball" src="../www/img/1_green.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/2_blue.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/3_red.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/4_yellow.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/5_orange.png"/></div>'
         el = document.getElementsByClassName("singlecolorbox");
         for (i = 0; i < el.length; i++) {
             element = el.item(i);
@@ -85,7 +85,7 @@ function screenSize() {
         }
     }
     if (sessionStorage.getItem('numbercolors') === '6') {
-        element.innerHTML = '<div class="border"></div><div class="singlecolorbox"><img class="ball" src="../www/img/white.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/blue.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/red.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/green.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/pink.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/yellow.png"/></div><div class="border"></div>'
+        element.innerHTML = '<div class="border"></div><div class="singlecolorbox"><img class="ball" src="../www/img/1_green.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/2_blue.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/3_red.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/4_yellow.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/5_orange.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/6_violet.png"/></div><div class="border"></div>'
         el = document.getElementsByClassName("singlecolorbox");
         for (i = 0; i < el.length; i++) {
             element = el.item(i);

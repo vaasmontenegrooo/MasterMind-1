@@ -156,7 +156,7 @@ body{
     border:0px;
     display:block;
     float:left;
-    background-color: cadetblue;
+
 }
 
 #colorbasket{
@@ -165,7 +165,7 @@ body{
     border:0px;
     display:block;
     float:left;
-    background-color: cadetblue;
+
 }
 
 #clock{
@@ -180,7 +180,6 @@ body{
     border:0px;
     display:block;
     float:left;
-    background-color: cadetblue;
 }
 
 .singlecolorbox img{
