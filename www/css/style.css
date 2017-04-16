@@ -1,13 +1,22 @@
-body{
+﻿body{
     margin:0px !important;
     padding:0px !important;
+    
+}
+
+#menu, #rules{
     background: url('../img/Splash.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-.background {
-    background: none;
+
+#options{
+    background: url('../img/optionsbg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
+
+
 
 .header{
     border:0px;
@@ -96,6 +105,12 @@ body{
 
 /*new game*/ 
 
+#newgamepage{
+    background: url('../img/gamebg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 .singlerow{
     margin:0px;
     padding:0px;
@@ -108,7 +123,7 @@ body{
     border:0px;
     display:block;
     float:left;
-    background: url('../img/container.png');
+    background: url('../img/singlebox.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
@@ -118,24 +133,12 @@ body{
     border:0px;
     display:block;
     float:left;
-    background: url('../img/scorecheck.png');
+    background: url('../img/singleboxscore.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 #newgamepage .ui-content{
-    background-image: url('../img/gamebg.png');
-    background-repeat:no-repeat;
-    background-size:100% 100%;
-    margin:0 !important;
-    padding:0 !important;
-    border:0 !important;
-}
-
-#options{
-    background-image: url('../img/optionsbg.png');
-    background-repeat:no-repeat;
-    background-size:100% 100%;
     margin:0 !important;
     padding:0 !important;
     border:0 !important;
@@ -147,7 +150,7 @@ body{
     border:0px;
     display:block;
     float:left;
-    background-color: aqua;
+    color: white;
 }
 
 #checkbutton {
@@ -156,7 +159,6 @@ body{
     border:0px;
     display:block;
     float:left;
-
 }
 
 #colorbasket{
@@ -165,7 +167,6 @@ body{
     border:0px;
     display:block;
     float:left;
-
 }
 
 #clock{
