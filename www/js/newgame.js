@@ -196,6 +196,7 @@ function catchSingleBox() {
 
 
 function initGame() {
+    init();
     makeRandomColors();
     screenSize();
     sec = getTime();
