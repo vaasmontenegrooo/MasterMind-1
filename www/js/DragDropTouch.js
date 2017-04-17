@@ -143,7 +143,7 @@ var DragDropTouch;
                 d.addEventListener('touchstart', ts);
                 d.addEventListener('touchmove', tm);
                 d.addEventListener('touchend', te);
-                d.addEventListener('touchcancel', te);
+                /**d.addEventListener('touchcancel', te);*/
             }
         }
         /**
