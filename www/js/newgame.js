@@ -72,7 +72,7 @@ function screenSize() {
         ballSize();
     }
     if (sessionStorage.getItem('numbercolors') === '6') {
-        element.innerHTML = '<div class="border"></div><div class="singlecolorbox"><img class="ball" src="../www/img/orange.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/blue.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/red.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/green.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/violet.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/yellow.png"/></div><div class="border"></div>'
+        element.innerHTML = '<div class="border"></div><div class="singlecolorbox"><img id="orange" class="ball" src="../www/img/orange.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/blue.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/red.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/green.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/violet.png"/></div><div class="singlecolorbox"><img class="ball" src="../www/img/yellow.png"/></div><div class="border"></div>'
         el = document.getElementsByClassName("singlecolorbox");
         for (i = 0; i < el.length; i++) {
             element = el.item(i);
@@ -143,7 +143,7 @@ function time() {
     setTimeout("time();", 1000);
 }
 
-/*function catchBalls() {
+function catchBalls() {
     orangeBall = document.getElementById("orange");
     orangeBall.addEventListener(
             'dragstart',
@@ -192,14 +192,14 @@ function catchSingleBox() {
             ev.preventDefault();}
             )
     }
-}*/
+}
 
-function dragdrop() {
+/*function dragdrop() {
     $(".singlecolorbox").draggable({snap: ".singlebox"});
     $(".singlecolorbox").position({at:"center"});
     $(".singlebox").droppable();
     
-}
+}*/
 
 
 
@@ -210,9 +210,9 @@ function initGame() {
     sec = getTime();
     time();
 
-    //catchCheck();
-    //catchBalls();
+    catchCheck();
+    catchBalls();
     round = 0;
-    dragdrop();
-    //catchSingleBox();
+   // dragdrop();
+    catchSingleBox();
 }
