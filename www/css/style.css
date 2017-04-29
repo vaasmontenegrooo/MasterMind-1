@@ -16,6 +16,18 @@ body{
     background-repeat: no-repeat;
 }
 
+#bestresults{
+    background: url('../img/bestbg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#rules{
+    background: url('../img/rulesbg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 
 
 .header{

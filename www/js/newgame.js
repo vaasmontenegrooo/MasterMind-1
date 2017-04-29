@@ -143,7 +143,7 @@ function time() {
     setTimeout("time();", 1000);
 }
 
-function catchBalls() {
+/*function catchBalls() {
     orangeBall = document.getElementById("orange");
     orangeBall.addEventListener(
             'dragstart',
@@ -192,14 +192,14 @@ function catchSingleBox() {
             ev.preventDefault();}
             )
     }
-}
+}*/
 
-/*function dragdrop() {
+function dragdrop() {
     $(".singlecolorbox").draggable({snap: ".singlebox"});
     $(".singlecolorbox").position({at:"center"});
     $(".singlebox").droppable();
     
-}*/
+}
 
 
 
@@ -210,9 +210,9 @@ function initGame() {
     sec = getTime();
     time();
 
-    catchCheck();
-    catchBalls();
+    //catchCheck();
+    //catchBalls();
     round = 0;
-   // dragdrop();
-    catchSingleBox();
+    dragdrop();
+    //catchSingleBox();
 }
